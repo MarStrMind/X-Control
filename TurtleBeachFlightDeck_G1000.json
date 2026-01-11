@@ -1,0 +1,25 @@
+{
+    "joy_id": 1,
+    "triggers":
+    [
+        { "buttons": "23,24", "activator": "alt+shift+f1", "keys": "d,i", "mods": "" },
+        { "buttons": "25,26", "activator": "alt+shift+f1", "keys": "s,u", "mods": "" },
+
+        { "buttons": "23,24", "activator": "alt+shift+f2", "keys": "o,r", "mods": "" },
+        { "buttons": "25,26", "activator": "alt+shift+f2", "keys": "p,t", "mods": "" },
+
+        { "buttons": "23,24", "activator": "alt+shift+f3", "keys": "t,t", "mods": "ctrl,shift" },
+        { "buttons": "25,26", "activator": "alt+shift+f3", "keys": "z,z", "mods": "ctrl,shift" },
+
+        { "buttons": "23,24", "activator": "alt+shift+f4", "keys": "h,h", "mods": "ctrl,shift" },
+        { "buttons": "25,26", "activator": "alt+shift+f4", "keys": "i,i", "mods": "ctrl,shift" },
+
+        { "buttons": "31,32", "activator": "alt+shift+f5", "keys": "b,b", "mods": "ctrl,shift" },
+
+        { "buttons": "31,32", "activator": "alt+shift+f6", "keys": "u,u", "mods": "ctrl,shift" },
+
+        { "buttons": "31,32", "activator": "alt+shift+f7", "keys": "g,g", "mods": "ctrl,shift" },
+        
+        { "buttons": "31,32", "activator": "alt+shift+f8", "keys": "r,r", "mods": "ctrl,shift" }
+    ]
+}
