@@ -11,11 +11,11 @@ activators = []
 def press_key(key, mod):
     if mod != "":
         keyboard.press(mod+"+"+key)
-        sleep(.25)
+        sleep(.2)
         keyboard.release(mod+"+"+key)
     else:
         keyboard.press(key)
-        sleep(.25)
+        sleep(.2)
         keyboard.release(key)
 
 
@@ -71,6 +71,9 @@ def handle_control():
     # You must pump the event queue (pygame.event.get) to receive updates
     try:
         while True:
+
+            loopsleep = True
+
             for event in pygame.event.get():
 
                 # Find active button
@@ -121,7 +124,7 @@ def handle_control():
                                 press_key(keys[1], mods[1])
 
             if loopsleep == True:
-                sleep(.016)
+                sleep(.02)
             continue
 
                 
